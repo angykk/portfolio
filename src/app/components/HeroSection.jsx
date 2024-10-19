@@ -43,7 +43,7 @@ export const HeroSection = () => {
            
             <div className = "col-span-5 place-self-center">
                 <div className="rounded-full bg-gradient-to-br from-[#80AF81] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative my-5">
-                    <Image src="images/ang.gif" //remove leading slash for github pages
+                    <Image src="/images/ang.gif" //remove leading slash for github pages
                     width={500}
                     className = "absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-[52%]"
                     height={500}
