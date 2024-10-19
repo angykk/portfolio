@@ -3,7 +3,7 @@ import Skills from "./components/Skills";
 
 export default function Home() {
   return (
-    <main className = "relative sm:mx-auto mx-1 max-w-screen-sm container my-auto px-1" >
+    <main className = "sm:mx-auto mx-1 max-w-screen-sm lg:max-w-screen-xl container my-auto" >
       <container className = "bg-[#D6EFD8] rounded-xl flex-col flex min-h-0.5 px-9 py-4">
         <HeroSection />
       </container>
