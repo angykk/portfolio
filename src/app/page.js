@@ -1,5 +1,5 @@
-import Image from "next/image";
 import HeroSection from "./components/HeroSection";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -7,9 +7,14 @@ export default function Home() {
       <container className = "bg-[#D6EFD8] rounded-xl flex-col flex min-h-0.5 px-9 py-4">
         <HeroSection />
       </container>
-      <container className = "bg-[#D6EFD8] rounded-xl flex-col flex min-h-0.5 px-9 py-4 my-10 ">
-      <p>Hello</p>
-      </container>
+      <div className = "grid grid-cols-12">
+        <container className = "bg-[#D6EFD8] rounded-xl col-span-7  my-10 mr-5 px-5 py-4">
+        <Skills />
+        </container>
+        <container className = "bg-[#D6EFD8] rounded-xl col-span-5 my-10 ">
+        <p>Hello</p>
+        </container>
+      </div>
     </main>
   );
 }
