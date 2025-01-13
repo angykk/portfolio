@@ -34,7 +34,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 w-full h-auto"
                                 alt="Housing Proximity Mapper video"
                                 controls>
-                                <source src="images/housingvid.mp4" type="video/mp4" />
+                                <source src="/images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
