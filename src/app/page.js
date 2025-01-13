@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="sm:mx-auto mx-1 max-w-screen-sm lg:max-w-screen-xl container my-auto pb-16">
       <div data-aos="fade-up">
-        <container className = "bg-[#D6EFD8] rounded-xl flex-col flex min-h-0.5 pl-9 py-4">
+        <container className = "bg-[#D6EFD8] rounded-xl flex-col flex min-h-0.5 lg:pl-9 py-4">
           <HeroSection />
         </container>
         <div className = "grid grid-cols-12">
