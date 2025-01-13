@@ -8,7 +8,7 @@ export const HeroSection = () => {
         <section>
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <div className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300">
-                    <h1 className="text-black mb-4 text-4xl lg:text-5xl font-extrabold">
+                    <h1 className="text-black mb-4 text-5xl lg:text-5xl font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#1A5319] via-[#508D4E]">Hello, I'm </span>
                         <div className="min-w-[300px] sm:min-w-[400px] whitespace-nowrap">
                             <TypeAnimation
