@@ -7,7 +7,7 @@ export const HeroSection = () => {
     return (
         <section>
             <div className="grid grid-cols-1 lg:grid-cols-12">
-                <div className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300">
+                <div className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300 px-4 sm:px-0">
                     <h1 className="text-black mb-4 text-5xl font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#1A5319] via-[#508D4E]">Hello, I'm </span>
                         <div className="min-w-[300px] sm:min-w-[400px] whitespace-nowrap">
@@ -51,8 +51,8 @@ export const HeroSection = () => {
                     </div>
                 </div>
 
-                <div className="col-span-4 place-self-center mr-10">
-                    <div className="rounded-full bg-gradient-to-br from-[#80AF81] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg">
+                <div className="col-span-4 place-self-center mt-4 lg:mr-10">
+                    <div className="rounded-full bg-gradient-to-br from-[#80AF81] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
                         <Image 
                             src="images/ang.gif"
                             width={500}
