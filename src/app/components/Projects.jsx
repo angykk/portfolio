@@ -72,7 +72,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 h-full w-full object-cover"
                                 alt="Password Manager video"
                                 controls>
-                                <source src="images/passwordvid.mp4" type="video/mp4" />
+                                <source src="/images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
