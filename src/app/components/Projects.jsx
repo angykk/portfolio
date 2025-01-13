@@ -34,7 +34,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 w-full h-auto"
                                 alt="Housing Proximity Mapper video"
                                 controls>
-                                <source src="/images/housingvid.mp4" type="video/mp4" />
+                                <source src="images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export const Projects = () => {
                                 </p>
                             </div>
                             <Image
-                                src="images/password1.png"
+                                src="images/password1.PNG"
                                 width={1920}
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 h-auto"
@@ -61,7 +61,7 @@ export const Projects = () => {
                             />
                         </div>
                         <Image
-                            src="images/password2.png"
+                            src="images/password2.PNG"
                             width={300}
                             height={1080}
                             className="rounded-2xl w-full px-2 py-2 h-full object-cover"
@@ -72,7 +72,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 h-full w-full object-cover"
                                 alt="Password Manager video"
                                 controls>
-                                <source src="/images/passwordvid.mp4" type="video/mp4" />
+                                <source src="images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
