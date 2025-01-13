@@ -16,7 +16,7 @@ export const Projects = () => {
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-lg font-bold hover:text-black">—Javascript, React, Next.js, Tailwind CSS, Google Maps API</p>
                     </div>
                     <Image
-                        src="/images/housing.png"
+                        src="images/housing.png"
                         width={1920}
                         height={1080}
                         className="rounded-2xl px-2 py-2 w-full h-auto"
@@ -34,7 +34,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 w-full h-auto"
                                 alt="Housing Proximity Mapper video"
                                 controls>
-                                <source src="/images/housingvid.mp4" type="video/mp4" />
+                                <source src="images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export const Projects = () => {
                                 </p>
                             </div>
                             <Image
-                                src="/images/password1.png"
+                                src="images/password1.png"
                                 width={1920}
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 h-auto"
@@ -61,7 +61,7 @@ export const Projects = () => {
                             />
                         </div>
                         <Image
-                            src="/images/password2.png"
+                            src="images/password2.png"
                             width={300}
                             height={1080}
                             className="rounded-2xl w-full px-2 py-2 h-full object-cover"
@@ -72,7 +72,7 @@ export const Projects = () => {
                                 className="rounded-2xl px-2 py-2 h-full w-full object-cover"
                                 alt="Password Manager video"
                                 controls>
-                                <source src="/images/passwordvid.mp4" type="video/mp4" />
+                                <source src="images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export const Projects = () => {
                             </div>
                             <div className="col-span-1 lg:col-span-2 flex justify-center">
                                 <Image
-                                    src="/images/sudoku.png"
+                                    src="images/sudoku.png"
                                     width={500}
                                     height={1080}
                                     className="rounded-2xl px-2 py-2 h-auto"
@@ -102,7 +102,7 @@ export const Projects = () => {
                         </div>
                         <div className="col-span-1 lg:col-span-1 flex justify-center">
                             <Image
-                                src="/images/sudoku1.png"
+                                src="images/sudoku1.png"
                                 width={500}
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 h-auto"
