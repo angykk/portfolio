@@ -79,6 +79,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+      - run: node -e "console.log(process.env.MY_SECRET1)"
+  env:
+    MY_SECRET1: ${{ secrets.SPOTIFY_CLIENT_ID }}
+    MY_SECRET2: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+    MY_SECRET3: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
   # Deployment job
   deploy:
