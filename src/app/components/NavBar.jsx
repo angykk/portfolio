@@ -36,7 +36,7 @@ export const NavBar = (props) => {
   };
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-gradient-to-tr from-[#D6EFD8] to-[#508D4E] rounded-t-lg px-5 py-2 pb-8 z-50">
+    <nav className="fixed bottom-0 left-0 right-0 bg-gradient-to-tr from-[#D6EFD8] to-[#508D4E] rounded-t-lg px-5 py-2 z-50">
       <div className="grid grid-cols-1 items-center justify-center">
         <div className="flex justify-center items-center gap-4">
           <div className="text-black text-2xl font-extrabold font-sans">

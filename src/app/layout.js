@@ -4,6 +4,10 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, viewport-fit=cover"
+      />
       <body>
         <div className="relative container sm:mx-auto mx-1 max-w-screen-sm lg:max-w-screen-xl my-5">
           <NavBar
