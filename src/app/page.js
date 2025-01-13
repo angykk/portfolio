@@ -5,7 +5,6 @@ import Contact from "./components/contact";
 import Projects from "./components/Projects";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { motion } from 'framer-motion';
 
 import { useEffect } from 'react';
 

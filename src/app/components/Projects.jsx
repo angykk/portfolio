@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Projects = () => {
     return (
         <>
-        
+
             <div className="w-full sm:w-fit bg-white bg-opacity-70 inline-block py-1 px-2 rounded-lg">
                 <h1 className="text-center text-black text-lg lg:text-xl font-bold font-sans">Projects</h1>
             </div>
@@ -25,7 +25,7 @@ export const Projects = () => {
                         alt="Housing Proximity Mapper screenshot"
                     />
                     <div className="grid grid-cols-1 lg:grid-cols-3 flex items-center">
-                        <div className="lg:text-center col-span-1 lg:w-full lg:h-fit bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                        <div className="lg:text-center col-span-1 lg:w-full lg:h-fit bg-white hover:bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                             <p className="text-black text-sm lg:text-xl font-bold">
                                 A housing proximity mapper created using Next.js and React. It utilizes Google map API's (Places API, Nearby Search API, Directions Matrix API) to look for point's of interests around potential housing. The web application searches for point's of interests like grocery stores, parks, and schools around potential housing, giving accurate commute times and allowing users to compare and contrast various housing.
                             </p>
@@ -40,6 +40,9 @@ export const Projects = () => {
                             </video>
                         </div>
                     </div>
+                    <div className="bg-[#80AF81] flex justify-center px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 bg-white bg-opacity-70 hover:bg-gradient-to-bl from-[#80AF81] to-white hover:-translate-y-1 hover:shadow-lg">
+                        <button onClick={() => window.open('https://github.com/angykk/housingWebsite', '_blank')} className="text-black text-sm lg:text-lg font-bold">Github Link</button>
+                    </div>
                 </div>
 
                 <div className="bg-[#80AF81] inline-block px-2 py-3 rounded-lg mt-5 mr-2">
@@ -49,7 +52,7 @@ export const Projects = () => {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 flex items-center">
                         <div className="col-span-1 flex flex-col items-center justify-center h-full">
-                            <div className="lg:text-center lg:w-full lg:h-fit bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                            <div className="lg:text-center lg:w-full lg:h-fit bg-white hover:bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                                 <p className="text-black text-sm lg:text-xl font-bold">
                                     An iOS and Web application password manager created using Flutter. The applications allow users to store their passwords securely through Firestore. The application also uses Firebase Authentication to secure users data.
                                 </p>
@@ -63,7 +66,7 @@ export const Projects = () => {
                             />
                         </div>
                         <Image
-                            src="/images/password2.PNG"
+                            src="images/password2.PNG"
                             width={300}
                             height={1080}
                             className="rounded-2xl w-full px-2 py-2 h-full object-cover transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -78,6 +81,9 @@ export const Projects = () => {
                             </video>
                         </div>
                     </div>
+                    <div className="bg-[#80AF81] flex justify-center px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 bg-white bg-opacity-70 hover:bg-gradient-to-bl from-[#80AF81] to-white hover:-translate-y-1 hover:shadow-lg">
+                        <button onClick={() => window.open('https://github.com/angykk/Password-Manager', '_blank')} className="text-black text-sm lg:text-lg font-bold">Github Link</button>
+                    </div>
                 </div>
 
                 <div className="bg-[#80AF81] inline-block px-2 py-3 rounded-lg mt-5 mr-2">
@@ -87,7 +93,7 @@ export const Projects = () => {
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2">
                         <div className="col-span-1 lg:col-span-1">
-                            <div className="col-span-1 lg:w-full bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                            <div className="col-span-1 lg:w-full bg-white hover:bg-white bg-opacity-70 inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
                                 <p className="text-black text-sm lg:text-xl font-bold">
                                     A sudoku solver programmed using Java. The application uses four advanced logic cycles and a backtracking guessing algorithm to solve easy to hard difficulty sudoku puzzles. The program uses 2D arrays to store the sudoku board and a stack to store the backtracking guesses. Puzzles are solved under 0.5 seconds.
                                 </p>
@@ -111,6 +117,9 @@ export const Projects = () => {
                                 alt="Sudoku Solver screenshot"
                             />
                         </div>
+                    </div>
+                    <div className="bg-[#80AF81] flex justify-center px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 bg-white bg-opacity-70 hover:bg-gradient-to-bl from-[#508D4E] to-white hover:-translate-y-1 hover:shadow-lg">
+                        <button onClick={() => window.open('https://github.com/angykk/SudokuSolver', '_blank')} className="text-black text-sm lg:text-lg font-bold">Github Link</button>
                     </div>
                 </div>
             </div>
