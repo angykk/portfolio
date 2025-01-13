@@ -35,7 +35,10 @@ export const Projects = () => {
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 w-full h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
                                 alt="Housing Proximity Mapper video"
-                                controls>
+                                autoPlay
+                                muted
+                                loop
+                                playsInline>
                                 <source src="images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
@@ -76,7 +79,10 @@ export const Projects = () => {
                             <video
                                 className="rounded-2xl px-2 py-2 h-full w-full object-cover transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
                                 alt="Password Manager video"
-                                controls>
+                                autoPlay
+                                muted
+                                loop
+                                playsInline>
                                 <source src="images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </div>
