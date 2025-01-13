@@ -24,6 +24,9 @@ h1{
   font-weight: 700;
   color: black;
 }
+.pb-safe-or-20 {
+	padding-bottom: max(env(safe-area-inset-right), 5rem);
+}
 
 @layer utilities {
   .text-balance {
