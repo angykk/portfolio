@@ -47,14 +47,14 @@ export const HeroSection = () => {
                     </p>
                     <div>
                         <button onClick={() => window.open('https://github.com/angykk', '_blank')} className="w-full sm:w-fit font-bold mt-5 px-6 py-3 rounded-full mr-2 bg-black hover:bg-gradient-to-bl from-[#1A5319] via-[#508D4E] to-white">GitHub</button>
-                        <button onClick={() => window.open('/images/2A_resume (1).pdf', '_blank')} className="w-full sm:w-fit mt-2 font-bold px-6 py-3 rounded-full bg-white hover:bg-gradient-to-tr from-[#1A5319] via-[#508D4E] to-white border-2 text-black border-black hover:text-white">Download Resume</button>
+                        <button onClick={() => window.open('images/2A_resume (1).pdf', '_blank')} className="w-full sm:w-fit mt-2 font-bold px-6 py-3 rounded-full bg-white hover:bg-gradient-to-tr from-[#1A5319] via-[#508D4E] to-white border-2 text-black border-black hover:text-white">Download Resume</button>
                     </div>
                 </div>
 
                 <div className="col-span-4 place-self-center mr-10">
                     <div className="rounded-full bg-gradient-to-br from-[#80AF81] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg">
                         <Image 
-                            src="/images/ang.gif"
+                            src="images/ang.gif"
                             width={500}
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-[52%]"
                             height={500}
