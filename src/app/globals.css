@@ -17,7 +17,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Bodoni Moda', serif;
+}
+h1{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: black;
 }
 
 @layer utilities {

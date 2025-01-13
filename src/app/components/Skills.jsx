@@ -5,30 +5,51 @@ export const Skills = () => {
     <div className="relative">
         <div>
             <div className="w-full sm:w-fit bg-white bg-opacity-70 inline-block px-2 py-1 rounded-lg">
-                <h1 className = "text-center text-black text-lg lg:text-xl font-bold font-sans">Skills</h1>
+                <h1 className = "text-center text-black text-lg lg:text-xl">Languages + Frameworks</h1>
             </div>
         </div>
         <div className="text-center sm:text-left">
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">C++</h1>
+            {/* Core Programming Languages */}
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Java</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">Java</h1>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">C++</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">Flutter</h1>
+            
+            {/* Web Fundamentals */}
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">HTML</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">HTML/CSS</h1>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">CSS</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">Javascript</h1>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Javascript</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">React</h1>
+
+            {/* Web Frameworks */}
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">React</p>
             </div>
-            <div className = "bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
-                <h1 className = "text-white text-sm lg:text-lg font-bold hover:text-black">Next.js</h1>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Next.js</p>
+            </div>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">TailWind CSS</p>
+            </div>
+
+            {/* Mobile Development */}
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Flutter</p>
+            </div>
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Dart</p>
+            </div>
+
+            {/* Testing */}
+            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 hover:bg-white">
+                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Cypress</p>
             </div>
         </div>
     </div>
