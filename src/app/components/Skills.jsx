@@ -4,52 +4,52 @@ export const Skills = () => {
   return (
     <div className="relative">
         <div>
-            <div className="w-full sm:w-fit bg-white bg-opacity-70 inline-block px-2 py-1 rounded-lg">
-                <h1 className = "text-center text-black text-lg lg:text-xl">Languages + Frameworks</h1>
+            <div className="w-full sm:w-fit bg-gradient-to-br from-[#EF745C] to-[#B15052] bg-opacity-70 inline-block px-2 py-1 rounded-lg">
+                <h1 className = "text-center text-white text-lg lg:text-xl">Languages + Frameworks</h1>
             </div>
         </div>
         <div className="text-center sm:text-left">
             {/* Core Programming Languages */}
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Java</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Java</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">C++</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">C++</p>
             </div>
             
             {/* Web Fundamentals */}
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">HTML</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">HTML</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">CSS</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">CSS</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Javascript</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Javascript</p>
             </div>
 
             {/* Web Frameworks */}
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">React</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">React</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Next.js</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Next.js</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">TailWind CSS</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">TailWind CSS</p>
             </div>
 
             {/* Mobile Development */}
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Flutter</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Flutter</p>
             </div>
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Dart</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Dart</p>
             </div>
 
             {/* Testing */}
-            <div className="bg-[#80AF81] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-white hover:-translate-y-1 hover:shadow-lg  ">
-                <p className="text-white text-sm lg:text-lg font-bold hover:text-black">Cypress</p>
+            <div className="bg-gradient-to-r from-[#EF745C] to-[#B15052] inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg  ">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Cypress</p>
             </div>
         </div>
     </div>

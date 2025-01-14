@@ -7,10 +7,10 @@ export const HeroSection = () => {
     return (
         <section>
             <div className="grid grid-cols-1 lg:grid-cols-12">
-                <div className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300 px-4 sm:px-0">
-                    <h1 className="text-black mb-4 text-5xl font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#1A5319] via-[#508D4E]">Hello, I'm </span>
-                        <div className="min-w-[300px] sm:min-w-[400px] whitespace-nowrap">
+                <div className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300 px-4 mx-4 sm:mx-0 sm:px-0">
+                    <h1 className="mt-[20px] lg:mt-automb-4 text-5xl font-extrabold">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#D06257] to-[#EF745C]">Hello, I'm </span>
+                        <div className="text-white sm:h-auto h-[80px]">
                             <TypeAnimation
                                 sequence={[
                                     'Angela',
@@ -25,34 +25,31 @@ export const HeroSection = () => {
                                     1000,
                                     'an App Developer',
                                     1000,
-                                    'a Rock Climber',
-                                    1000,
                                     'a Creator',
                                     1000,
-                                    'a Volleyball Player',
+                                    'a Designer',
                                     1000,
                                     'an Artist',
                                     1000, 
                                 ]}
                                 wrapper="span"
                                 speed={60}
-                                style={{ display: 'inline-block' }}
                                 repeat={Infinity}
                             />
                         </div>
                     </h1>
-                    <p className="text-gray-600 mt-6 text-lg lg:text-2xl font-bold">
+                    <p className="text-[#EF745C] mt-6 sm:mr-6 text-lg lg:text-2xl font-bold">
                         I'm a second year Computer Engineering student at the University of Waterloo. My passions lie in problem-solving and creating. 
                         <br /> In my free time, I like to rock climb, play volleyball, draw, and throw pottery :)
                     </p>
                     <div>
-                        <button onClick={() => window.open('https://github.com/angykk', '_blank')} className="w-full sm:w-fit font-bold mt-5 px-6 py-3 rounded-full mr-2 bg-black hover:bg-gradient-to-bl from-[#1A5319] via-[#508D4E] to-white">GitHub</button>
-                        <button onClick={() => window.open('images/2A_resume (1).pdf', '_blank')} className="w-full sm:w-fit mt-2 font-bold px-6 py-3 rounded-full bg-white hover:bg-gradient-to-tr from-[#1A5319] via-[#508D4E] to-white border-2 text-black border-black hover:text-white">Download Resume</button>
+                        <button onClick={() => window.open('https://github.com/angykk', '_blank')} className="w-full sm:w-fit font-bold mt-5 px-6 py-3 rounded-full mr-2 bg-black hover:bg-gradient-to-bl from-[#EF745C] via-[#923E4D] to-[#34073D]">GitHub</button>
+                        <button onClick={() => window.open('images/2A_resume (1).pdf', '_blank')} className="w-full sm:w-fit mt-2 font-bold px-6 py-3 rounded-full bg-white hover:bg-gradient-to-tr from-[#EF745C] via-[#923E4D] to-[#34073D] border-2 text-black border-black hover:text-white">Download Resume</button>
                     </div>
                 </div>
 
-                <div className="col-span-4 place-self-center mt-4 lg:mr-10">
-                    <div className="rounded-full bg-gradient-to-br from-[#80AF81] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
+                <div className="col-span-4 place-self-center mt-4 mx-4">
+                    <div className="rounded-full bg-gradient-to-br from-[#B15052] to-[#531942] w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
                         <Image 
                             src="images/ang.gif"
                             width={500}

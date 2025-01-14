@@ -9,20 +9,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #fff4fb;
+    --background: #34073D;
     --foreground: #ededed;
   }
 }
 
 body {
-  color: var(--foreground);
+  color: white;
   background: var(--background);
   font-family: 'Bodoni Moda', serif;
 }
 h1{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
 }
 
 @layer utilities {
