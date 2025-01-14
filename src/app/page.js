@@ -19,18 +19,18 @@ export default function Home() {
   return (
     <main className="sm:mx-auto mx-1 max-w-screen-sm lg:max-w-screen-xl container my-auto pb-16">
       <div data-aos="fade-up">
-        <container className="bg-gradient-to-br from-[#722b47] to-[#34073D] rounded-xl flex-col flex min-h-0.5 lg:pl-9 py-6 px-6">
+        <container className="rounded-xl flex-col flex min-h-0.5 lg:pl-9 py-6 px-6">
           <HeroSection />
         </container>
         <div className="grid grid-cols-12">
-          <container className="bg-gradient-to-br from-[#722b47] to-[#34073D] rounded-xl flex col-span-7 my-10 mr-5 px-5 py-4">
+          <container className=" rounded-xl flex col-span-7 my-10 mr-5 px-5 py-4">
             <Skills />
           </container>
-          <container className="bg-gradient-to-br from-[#722b47] to-[#34073D] rounded-xl flex col-span-5 my-10 px-5 py-4">
+          <container className=" rounded-xl flex col-span-5 my-10 px-5 py-4">
             <Contact />
           </container>
         </div>
-        <container className="bg-gradient-to-br from-[#722b47] to-[#34073D] rounded-xl flex-col flex min-h-0.5 px-4 py-4">
+        <container className="rounded-xl flex-col flex min-h-0.5 px-4 py-4">
           <Projects />
         </container>
       </div>

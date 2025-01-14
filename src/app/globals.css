@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #D06257;
   --foreground: #ffffff;
 }
 
@@ -11,6 +11,9 @@
   :root {
     --background: #34073D;
     --foreground: #ededed;
+  }
+  :container {
+    background: linear-gradient(to bottom right, #722b47, #34073D);
   }
 }
 
@@ -24,6 +27,15 @@ h1{
   font-weight: 700;
   color: #ffffff;
 }
+
+container {
+  background: linear-gradient(to bottom right, #722b47, #34073D);
+}
+
+detail {
+  background: linear-gradient(to right, #EF745C, #B15052)
+}
+
 
 @layer utilities {
   .text-balance {
