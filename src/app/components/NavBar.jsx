@@ -28,25 +28,18 @@ export const NavBar = (props) => {
     fetchNowPlaying();
   }, []);
 
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-  const scrollToProjects = () => {
-    window.scrollTo({ top: 850, behavior: 'smooth' });
-  };
-
   return (
     <nav className="fixed bottom-0 left-0 right-0 bg-gradient-to-r from-[#531942] via-[#923E4D] to-[#EF745C] rounded-t-lg px-5 py-2 z-50">
       <section className="flex justify-between items-center">
         <section className="flex justify-center items-center gap-4">
           <section className="text-2xl font-extrabold font-sans">
-            <button className="hover:text-[#EF745C] flex items-center" onClick={scrollToTop}>
+            <button className="hover:text-[#EF745C] flex items-center" onClick={props.scrollToTop}>
               <Home01Icon size={25} className="mr-1" />
               <span className="lg:inline hidden">Home</span>
             </button>
           </section>
-          <section className=" text-2xl font-extrabold font-sans">
-            <button className="flex items-center hover:text-[#EF745C]" href="/" onClick={scrollToProjects}>
+          <section className="text-2xl font-extrabold font-sans">
+            <button className="flex items-center hover:text-[#EF745C]" onClick={props.scrollToProjects}>
               <Task01Icon size={25} className="mr-1" />
               <span className="lg:inline hidden">Projects</span>
             </button>
