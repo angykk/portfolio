@@ -3,7 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Contact from "./components/contact";
 import Projects from "./components/Projects";
-import { useRef } from react;
+import { useRef } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import NavBar from "./components/NavBar";
