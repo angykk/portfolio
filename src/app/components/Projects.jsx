@@ -1,18 +1,59 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
-
 export const Projects = () => {
+    const [activeTab, setActiveTab] = useState('tabOne');
+
+    const handleTabChange = (tabName) => {
+        setActiveTab(tabName);
+    };
+
     return (
         <>
+            <section className="flex justify-start gap-4">
+                <header className="w-full sm:w-fit bg-gradient-to-br from-[#EF745C] to-[#B15052] py-1 px-2 rounded-lg">
+                    <h1 className="text-center text-lg lg:text-xl font-bold font-sans">Projects</h1>
+                </header>
+                <div className="tabs flex gap-4">
+                    <header className={`w-full sm:w-fit inline-block py-1 px-2 rounded-lg ${
+                        activeTab === 'tabOne' 
+                        ? "bg-gradient-to-br from-[#B15052] to-[#34073D]" 
+                        : 'bg-gradient-to-br from-[#EF745C] to-[#B15052]'
+                    }`}>
+                        <button onClick={() => handleTabChange('tabOne')}>
+                            <h1 className="text-center text-lg lg:text-xl font-bold font-sans">
+                                <span className="inline-block">&emsp;<span className="hidden sm:inline">&emsp;</span></span>
+                            </h1>
+                        </button>
+                    </header>
+                    <header className={`w-full sm:w-fit inline-block py-1 px-2 rounded-lg ${
+                        activeTab === 'tabTwo' 
+                        ? "bg-gradient-to-br from-[#B15052] to-[#34073D]" 
+                        : 'bg-gradient-to-br from-[#EF745C] to-[#B15052]'
+                    }`}>
+                        <button onClick={() => handleTabChange('tabTwo')}>
+                            <h1 className="text-center text-lg lg:text-xl font-bold font-sans">
+                                <span className="inline-block">&emsp;<span className="hidden sm:inline">&emsp;</span></span>
+                            </h1>
+                        </button>
+                    </header>
+                    <header className={`w-full sm:w-fit inline-block py-1 px-2 rounded-lg ${
+                        activeTab === 'tabThree' 
+                        ? "bg-gradient-to-br from-[#B15052] to-[#34073D]" 
+                        : 'bg-gradient-to-br from-[#EF745C] to-[#B15052]'
+                    }`}>
+                        <button onClick={() => handleTabChange('tabThree')}>
+                            <h1 className="text-center text-lg lg:text-xl font-bold font-sans">
+                                <span className="inline-block">&emsp;<span className="hidden sm:inline">&emsp;</span></span>
+                            </h1>
+                        </button>
+                    </header>
+                </div>
+            </section>
 
-            <header className="w-full sm:w-fit bg-gradient-to-br from-[#EF745C] to-[#B15052] inline-block py-1 px-2 rounded-lg">
-                <h1 className="text-center text-lg lg:text-xl font-bold font-sans">Projects</h1>
-            </header>
-
-            <section className="flex flex-col">
-                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2">
+            <section className={`flex flex-col ${activeTab === 'tabOne' ? 'block' : 'hidden'}`}>
+                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2" id="tabOne">
                     <header className="flex justify-between">
                         <p className="px-2 py-1 text-white text-sm lg:text-2xl font-bold">Housing Proximity Mapper</p>
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Javascript, React, Next.js, Tailwind CSS, Google Maps API</p>
@@ -43,17 +84,19 @@ export const Projects = () => {
                             </video>
                         </div>
                     </section>
-                    <button 
-                        onClick={() => window.open('https://github.com/angykk/housingWebsite', '_blank')} 
+                    <button
+                        onClick={() => window.open('https://github.com/angykk/housingWebsite', '_blank')}
                         className="w-full"
                     >
-                         <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                        <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
                             <span className="lg:text-black text-white lg:text-lg font-bold group-hover:text-white">Github Link</span>
                         </div>
                     </button>
                 </section>
+            </section>
 
-                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2">
+            <section className={`flex flex-col ${activeTab === 'tabTwo' ? 'block' : 'hidden'}`}>
+                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2" id="tabTwo">
                     <header className="flex justify-between">
                         <p className="px-2 py-1 text-white text-sm lg:text-2xl font-bold">Password Manager</p>
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Flutter, Dart, Firebase, Firestore</p>
@@ -92,17 +135,19 @@ export const Projects = () => {
                             </video>
                         </section>
                     </section>
-                    <button 
-                        onClick={() => window.open('https://github.com/angykk/Password-Manager', '_blank')} 
+                    <button
+                        onClick={() => window.open('https://github.com/angykk/Password-Manager', '_blank')}
                         className="w-full"
                     >
-                         <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                        <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
                             <span className="lg:text-black text-white lg:text-lg font-bold group-hover:text-white">Github Link</span>
                         </div>
                     </button>
                 </section>
+            </section>
 
-                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2">
+            <section className={`flex flex-col ${activeTab === 'tabThree' ? 'block' : 'hidden'}`}>
+                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2" id="tabThree">
                     <header className="flex justify-between">
                         <p className="px-2 py-1 text-white text-sm lg:text-2xl font-bold">Sudoku Solver</p>
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Java</p>
@@ -134,8 +179,8 @@ export const Projects = () => {
                             />
                         </div>
                     </section>
-                    <button 
-                        onClick={() => window.open('https://github.com/angykk/SudokuSolver', '_blank')} 
+                    <button
+                        onClick={() => window.open('https://github.com/angykk/SudokuSolver', '_blank')}
                         className="w-full"
                     >
                         <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
