@@ -32,7 +32,7 @@ export const NavBar = (props) => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   const scrollToProjects = () => {
-    window.scrollTo({ top: 700, behavior: 'smooth' });
+    window.scrollTo({ top: 1000, behavior: 'smooth' });
   };
 
   return (
