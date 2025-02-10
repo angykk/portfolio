@@ -70,7 +70,7 @@ export const Projects = () => {
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Javascript, React, Next.js, Tailwind CSS, Google Maps API</p>
                     </header>
                     <Image
-                        src="/images/housing.png"
+                        src="images/housing.png"
                         width={1920}
                         height={1080}
                         className="rounded-2xl px-2 py-2 w-full h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -91,7 +91,7 @@ export const Projects = () => {
                                 muted
                                 loop
                                 playsInline>
-                                <source src="/images/housingvid.mp4" type="video/mp4" />
+                                <source src="images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </section>
@@ -127,7 +127,7 @@ export const Projects = () => {
                                 muted
                                 loop
                                 playsInline>
-                                <source src="/images/Duck.mp4" type="video/mp4" />
+                                <source src="images/Duck.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </section>
@@ -157,7 +157,7 @@ export const Projects = () => {
                                 </p>
                             </summary>
                             <Image
-                                src="/images/password1.PNG"
+                                src="images/password1.PNG"
                                 width={1920}
                                 height={1080}
                                 className="lg:inline hidden rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -165,7 +165,7 @@ export const Projects = () => {
                             />
                         </section>
                         <Image
-                            src="/images/password2.PNG"
+                            src="images/password2.PNG"
                             width={300}
                             height={1080}
                             className="lg:inline hidden rounded-2xl w-full px-2 py-2 h-full object-cover transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -179,7 +179,7 @@ export const Projects = () => {
                                 muted
                                 loop
                                 playsInline>
-                                <source src="/images/passwordvid.mp4" type="video/mp4" />
+                                <source src="images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </section>
                     </section>
@@ -209,7 +209,7 @@ export const Projects = () => {
                             </summary>
                             <div className="col-span-1 lg:col-span-2 flex justify-center">
                                 <Image
-                                    src="/images/sudoku.png"
+                                    src="images/sudoku.png"
                                     width={500}
                                     height={1080}
                                     className="rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -219,7 +219,7 @@ export const Projects = () => {
                         </section>
                         <div className="col-span-1 lg:col-span-1 flex justify-center">
                             <Image
-                                src="/images/sudoku1.png"
+                                src="images/sudoku1.png"
                                 width={500}
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
