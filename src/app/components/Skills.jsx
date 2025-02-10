@@ -47,6 +47,10 @@ export const Skills = () => {
                 <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Dart</p>
             </detail>
 
+            <detail className="inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Unity</p>
+            </detail>
+
             {/* Testing */}
             <detail className="inline-block px-2 py-1 rounded-lg mt-5 mr-2 transform transition-all duration-300 hover:bg-gradient-to-r hover:from-[#D06257] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg  ">
                 <p className="text-[#34073D] hover:text-white text-sm lg:text-lg font-bold">Cypress</p>
