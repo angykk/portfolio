@@ -51,7 +51,7 @@ export const HeroSection = () => {
                 <figure className="col-span-4 place-self-center mt-4 mx-4">
                     <section className="rounded-full bg-gradient-to-br from-[#B15052] to-[#531942] w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
                         <Image 
-                            src="images/ang.gif"
+                            src="/images/ang.gif"
                             width={500}
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-[52%]"
                             height={500}

@@ -49,6 +49,17 @@ export const Projects = () => {
                             </h1>
                         </button>
                     </header>
+                    <header className={`w-full sm:w-fit inline-block py-1 px-2 rounded-lg ${
+                        activeTab === 'tabFour' 
+                        ? "bg-gradient-to-br from-[#B15052] to-[#34073D]" 
+                        : 'bg-gradient-to-br from-[#EF745C] to-[#B15052]'
+                    }`}>
+                        <button onClick={() => handleTabChange('tabFour')}>
+                            <h1 className="text-center text-lg lg:text-xl font-bold font-sans">
+                                <span className="inline-block">&emsp;<span className="hidden sm:inline">&emsp;</span></span>
+                            </h1>
+                        </button>
+                    </header>
                 </div>
             </section>
 
@@ -59,7 +70,7 @@ export const Projects = () => {
                         <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Javascript, React, Next.js, Tailwind CSS, Google Maps API</p>
                     </header>
                     <Image
-                        src="images/housing.png"
+                        src="/images/housing.png"
                         width={1920}
                         height={1080}
                         className="rounded-2xl px-2 py-2 w-full h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -80,7 +91,7 @@ export const Projects = () => {
                                 muted
                                 loop
                                 playsInline>
-                                <source src="images/housingvid.mp4" type="video/mp4" />
+                                <source src="/images/housingvid.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </section>
@@ -94,6 +105,43 @@ export const Projects = () => {
                     </button>
                 </section>
             </section>
+                
+            <section className={`flex flex-col ${activeTab === 'tabFour' ? 'block' : 'hidden'}`}>
+                <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2" id="tabFour">
+                    <header className="flex justify-between">
+                        <p className="px-2 py-1 text-white text-sm lg:text-2xl font-bold">2D Duck SideScroller</p>
+                        <p className="text-right px-2 py-1 text-white text-sm lg:text-xl font-bold hover:text-[#EF745C]">—Unity, C#</p>
+                    </header>
+                    <section className="grid grid-cols-1 lg:grid-cols-3 flex items-center">
+                        <summary className="lg:text-center col-span-1 lg:w-full lg:h-fit bg-gradient-to-br from-[#EF745C] to-[#B15052] inline-block my-2 mx-2 py-1 px-2 rounded-lg transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+                            <p className="lg:text-black text-white text-sm lg:hover:text-white lg:hover:text-opacity-90 lg:text-xl font-bold">
+                                A 2D SideScroller coded in Unity using C#. Features a duck sprite navigating through obstacles and a score counter. The game has an infintely scrolling background, with a parallax effect. Utilizes a dynamic tilemap system where obstacles are spawned in at random.
+                            </p>
+                        </summary>
+                        <div className="col-span-1 lg:col-span-2 lg:ml-4">
+                            <video width={1920}
+                                height={1080}
+                                className="rounded-2xl px-2 py-2 w-full h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+                                alt="Duck SideScroller video"
+                                autoPlay
+                                muted
+                                loop
+                                playsInline>
+                                <source src="/images/Duck.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </section>
+                    <button
+                        onClick={() => window.open('https://github.com/angykk/DuckSideScroller', '_blank')}
+                        className="w-full"
+                    >
+                        <div className="group flex justify-center px-2 py-1 rounded-lg mt-5 transform transition-all duration-300 bg-gradient-to-br from-[#EF745C] to-[#B15052] hover:bg-gradient-to-r hover:from-[#EF745C] hover:to-[#923E4D] hover:-translate-y-1 hover:shadow-lg">
+                            <span className="lg:text-black text-white lg:text-lg font-bold group-hover:text-white">Github Link</span>
+                        </div>
+                    </button>
+                </section>
+            </section>
+            
 
             <section className={`flex flex-col ${activeTab === 'tabTwo' ? 'block' : 'hidden'}`}>
                 <section className="bg-gradient-to-br from-[#923E4D] to-[#531942] inline-block px-2 py-3 rounded-lg mt-5 mr-2" id="tabTwo">
@@ -109,7 +157,7 @@ export const Projects = () => {
                                 </p>
                             </summary>
                             <Image
-                                src="images/password1.PNG"
+                                src="/images/password1.PNG"
                                 width={1920}
                                 height={1080}
                                 className="lg:inline hidden rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -117,7 +165,7 @@ export const Projects = () => {
                             />
                         </section>
                         <Image
-                            src="images/password2.PNG"
+                            src="/images/password2.PNG"
                             width={300}
                             height={1080}
                             className="lg:inline hidden rounded-2xl w-full px-2 py-2 h-full object-cover transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -131,7 +179,7 @@ export const Projects = () => {
                                 muted
                                 loop
                                 playsInline>
-                                <source src="images/passwordvid.mp4" type="video/mp4" />
+                                <source src="/images/passwordvid.mp4" type="video/mp4" />
                             </video>
                         </section>
                     </section>
@@ -161,7 +209,7 @@ export const Projects = () => {
                             </summary>
                             <div className="col-span-1 lg:col-span-2 flex justify-center">
                                 <Image
-                                    src="images/sudoku.png"
+                                    src="/images/sudoku.png"
                                     width={500}
                                     height={1080}
                                     className="rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
@@ -171,7 +219,7 @@ export const Projects = () => {
                         </section>
                         <div className="col-span-1 lg:col-span-1 flex justify-center">
                             <Image
-                                src="images/sudoku1.png"
+                                src="/images/sudoku1.png"
                                 width={500}
                                 height={1080}
                                 className="rounded-2xl px-2 py-2 h-auto transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
