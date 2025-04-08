@@ -20,7 +20,7 @@
 body {
   color: white;
   background: var(--background);
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 h1{
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
