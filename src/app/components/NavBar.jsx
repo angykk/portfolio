@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import getNowPlayingItem from "../spotify";
 import Image from 'next/image';
 
-export const NavBar = (props) => {
+const NavBar = (props) => {
   const [loading, setLoading] = useState(true);
   const [result, setResult] = useState({});
   const [isPlaying, setIsPlaying] = useState(false);
@@ -30,7 +30,7 @@ export const NavBar = (props) => {
     const interval = setInterval(fetchNowPlaying, 30000);
 
     return () => clearInterval(interval);
-  }, [result]);
+  }, []);
 
   return (
     <span className="fixed bottom-0 left-0 right-0 z-50">
@@ -55,8 +55,7 @@ export const NavBar = (props) => {
                 <span className="lg:inline hidden">Projects</span>
               </button>
             </section>
-          </section>
-          {!loading && isPlaying && (
+            {!loading && isPlaying && (
             <section className="flex items-center lg:gap-3">
               <img
                 src={result.albumImageUrl}
@@ -64,12 +63,13 @@ export const NavBar = (props) => {
                 className="rounded-full w-8 h-8 lg:w-12 lg:h-12 animate-spin-slow z-100"
               />
               <section className="flex flex-col hidden lg:flex">
-                <h1 className="text-lg hidden lg:block">Playing...</h1>
-                <a href={result.songUrl} target="_blank" className="font-medium hover:underline"><h1 className="text-white">{result.title}</h1></a>
-                <h1 className="text-sm text-white">{result.artist}</h1>
+                <h1 className="text-small hidden lg:block">listening to</h1>
+                <a href={result.songUrl} target="_blank" className="font-small hover:underline"><h1 className="font-small text-white">{result.title} - {result.artist}</h1></a>
               </section>
             </section>
           )}
+          </section>
+          
         </section>
       </nav>
     </span>

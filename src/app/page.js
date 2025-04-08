@@ -35,6 +35,10 @@ export default function Home() {
       <NavBar 
         scrollToTop={scrollToTop}
         scrollToProjects={scrollToProjects}
+        client_id={process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_ID}
+        client_secret={process.env.NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET}
+        refresh_token={process.env.NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN}
+    
       />
       <div data-aos="fade-up">
         <container className="rounded-xl flex-col flex min-h-0.5 lg:pl-9 py-6 px-6">
