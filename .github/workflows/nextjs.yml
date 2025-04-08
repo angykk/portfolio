@@ -29,9 +29,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MY_SECRET1: ${{ secrets.SPOTIFY_CLIENT_ID }}
-      MY_SECRET2: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-      MY_SECRET3: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+      MY_SECRET1: ${{ secrets.NEXT_PUBLIC_SPOTIFY_CLIENT_ID }}
+      MY_SECRET2: ${{ secrets.NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET }}
+      MY_SECRET3: ${{ secrets.NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
