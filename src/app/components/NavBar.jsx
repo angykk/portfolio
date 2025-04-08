@@ -37,7 +37,7 @@ const NavBar = (props) => {
       <Image
         src="images/cat.gif"
         width={180}
-        className="absolute hidden lg:absolute ight-0 -bottom-3"
+        className="absolute hidden lg:block ight-0 -bottom-3"
         height={180}
       />
       <nav className="bg-gradient-to-r from-[#531942] via-[#923E4D] to-[#EF745C] rounded-t-lg px-5 py-2">
