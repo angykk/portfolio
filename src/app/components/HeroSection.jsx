@@ -7,7 +7,7 @@ export const HeroSection = () => {
     return (
         <>
             <section className="grid grid-cols-1 lg:grid-cols-12">
-                <header className="col-span-8 place-self-center text-center sm:text-left transition-transform hover:scale-[102%] duration-300 px-4 mx-4 sm:mx-0 sm:px-0">
+                <header className="col-span-8 place-self-center text-center sm:text-left px-4 mx-4 sm:mx-0 sm:px-0">
                     <h1 className="mt-[20px] lg:mt-automb-4 text-5xl font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-b from-[#D06257] to-[#EF745C]">Hello, I'm </span>
                         <section className="text-white sm:h-auto h-[80px]">
@@ -49,9 +49,9 @@ export const HeroSection = () => {
                 </header>
 
                 <figure className="col-span-4 place-self-center mt-4 mx-4">
-                    <section className="rounded-full bg-gradient-to-br from-[#B15052] to-[#531942] w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
+                    <section className="rounded-full bg-gradient-to-br from-[#EFE3D4] to-[#B15052] w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] relative my-5 hover:-translate-y-3 transform transition-all duration-300 hover:shadow-lg mx-auto">
                         <Image 
-                            src="images/ang.gif"
+                            src="images/NO CIR BG VER.gif"
                             width={500}
                             className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-[52%]"
                             height={500}

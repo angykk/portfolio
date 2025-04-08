@@ -35,7 +35,7 @@ export const NavBar = (props) => {
   return (
     <span className="fixed bottom-0 left-0 right-0 z-50">
       <Image
-        src="images/cat.gif"
+        src="/images/cat.gif"
         width={180}
         className="absolute right-0 -bottom-3"
         height={180}
