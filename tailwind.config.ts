@@ -8,10 +8,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#0B0E14",
-        panel: "#12161F",
-        panel2: "#161B26",
-        line: "#232838",
+        bg: "#0f0b14",
+        panel: "#17121f",
+        panel2: "#1d1626",
+        line: "#2e2338",
         ink: "#E6E8EB",
         dim: "#8B93A7",
         faint: "#565E72",
