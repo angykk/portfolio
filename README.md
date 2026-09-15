@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+A terminal-inspired, interactive developer portfolio built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What's where
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- `components/Terminal.tsx` — the hero. A boot sequence followed by a live prompt (`whoami`, `projects`, `skills`, `experience`, `contact`, `help`, `clear`). Edit `BOOT_LINES` and the `runCommand` switch to change copy or add commands.
+- `components/About.tsx` — bio + the "neofetch" fact card. Edit the `facts` array and the two paragraphs.
+- `components/Projects.tsx` — file-listing style project list. Edit the `projects` array; each entry expands on click.
+- `components/Skills.tsx` — package.json-styled stack list. Edit `dependencies` / `devDependencies`.
+- `components/Experience.tsx` — git-log styled timeline. Edit the `commits` array.
+- `components/Contact.tsx` — email + links. Update `EMAIL` and `links`. Drop a real `resume.pdf` into `public/` for that link to work.
+- `app/layout.tsx` — page title/description (`metadata`) and fonts.
+- `tailwind.config.ts` — color tokens (`bg`, `panel`, `ink`, `dim`, `pink`, `green`) if you want to shift the palette.
 
-## Learn More
+## Deploying
 
-To learn more about Next.js, take a look at the following resources:
+This is a standard Next.js app — deploys as-is to Vercel, Netlify, or any Node host:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+npm run build
+npm start
+```
