@@ -31,11 +31,21 @@ const projects: Project[] = [
   {
     name: "home-surveillance-app",
     ext: "py",
-    modified: "2025-09",
+    modified: "2026-09",
     size: "307 KB",
     summary: "Turns spare phones into WebRTC live-streaming security cameras",
     description:
       "A cross-platform home surveillance app built in Flutter over WebRTC, turning spare phones into live-streaming security cameras. Includes a motion-triggered recording pipeline using OpenCV, with clips uploaded to a REST API backed by SQLite and served with range-request support for playback.",
+    tags: ["Python", "Flutter", "Dart", "WebRTC", "WebSockets"],
+    link: "https://github.com/angykk/surveillance-app",
+  },
+  { name: "webRTC-media-streamer",
+    ext: "py",
+    modified: "2025-09",
+    size: "129 KB",
+    summary: "Streams phone video to laptop through WebRTC",
+    description:
+      "A cross-platform video streaming pipeline built in Flutter over WebRTC, connecting phone video to laptop through WebRTC.",
     tags: ["Python", "Flutter", "Dart", "WebRTC", "WebSockets"],
     link: "https://github.com/angykk/WebRTC-Capture",
   },
