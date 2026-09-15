@@ -14,7 +14,7 @@ export default function About() {
         <div>
           <h2 className="font-mono text-sm text-pink">about</h2>
           <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink">
-            I&apos;m a third year Computer Engineering student at the University of Waterloo,
+            My name is Angela. I&apos;m a third year Computer Engineering student at the University of Waterloo,
             currently on a study abroad. I like turning random ideas into reality through code,
             from backend services powering real-time systems at scale to
             side projects that make my own life a little easier.
