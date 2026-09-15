@@ -87,7 +87,7 @@ export default function CatsPage() {
         width={200}
         height={200}
         unoptimized={true}
-        className="pointer-events-none fixed bottom-1 right-4 z-50 hidden sm:block"
+        className="pointer-events-none fixed bottom-1 right-4 z-50"
       />
 
       <h1 className="mt-8 font-mono text-sm text-pink">tora the cat</h1>
